@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "378033669525",
+    "project_id": "hackathon-149915"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378033669525:android:8db2dfe6c35f6350",
+        "android_client_info": {
+          "package_name": "com.example.nikkianne.googlehackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378033669525-s6f2isjph6boejvrvd0vcmjelmigmao6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "378033669525-djpcg25tk488pqb2gqkcmvbiimbjtpi9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-14kWf9_7HoHxtuVE8jiUDGPGbkHGEs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378033669525:android:a57cfe7b22dd41fa",
+        "android_client_info": {
+          "package_name": "com.example.nikkianne.hakatun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378033669525-m35v1fo09g32sl93l0du69bsdci36sbe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nikkianne.hakatun",
+            "certificate_hash": "833A6364F2DD0B2D2262A6FAA56933152A4232C5"
+          }
+        },
+        {
+          "client_id": "378033669525-s6f2isjph6boejvrvd0vcmjelmigmao6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "378033669525-djpcg25tk488pqb2gqkcmvbiimbjtpi9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-14kWf9_7HoHxtuVE8jiUDGPGbkHGEs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

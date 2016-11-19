@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Job Fragment"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        />
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="left|top"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        card_view:cardBackgroundColor="@color/colorbg"
+        card_view:cardCornerRadius="4dp" >
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="XYZ Boarding Home"
+            android:textSize="24dp"
+            android:layout_marginTop="60sp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite" />
+
+        <TextView
+            android:id="@+id/info_text5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Minglanilla, Cebu 09223456712 | 23459991"
+            android:textSize="14dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_gravity="right|top"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardBackgroundColor="@color/colorSC"
+        >
+        <TextView
+            android:id="@+id/info_text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ABC Study Center"
+            android:textSize="24dp"
+            android:layout_marginTop="60sp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite" />
+
+        <TextView
+            android:id="@+id/info_text4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lapu-Lapu City,Cebu  09223456178 | 2341221"
+            android:textSize="14dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite"/>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Job Fragment"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"/>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_vie2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardBackgroundColor="@color/colorbg"
+        card_view:cardCornerRadius="4dp"
+        >
+
+        <TextView
+            android:id="@+id/info_text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lyen's Boarding Home"
+            android:textSize="24dp"
+            android:layout_marginTop="55sp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite" />
+
+        <TextView
+            android:id="@+id/info_text3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sanciangko St. Cebu City 09223455678 | 2345001"
+            android:textSize="14dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite"/>
+
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW IN MAP"
+        android:id="@+id/mapB"
+        android:onClick="ViewMap"
+        android:layout_gravity="center_horizontal|bottom"
+        android:backgroundTint="@color/abc_input_method_navigation_guard"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+</FrameLayout>

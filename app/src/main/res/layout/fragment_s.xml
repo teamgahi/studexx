@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="5dp" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="left|top"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        card_view:cardBackgroundColor="@color/colorB"
+        card_view:cardCornerRadius="4dp" >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/java"
+            android:layout_marginRight="150dp"/>
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Introduction to Object Oriented Programming with Java"
+            android:textSize="16dp"
+            android:layout_marginTop="16sp"
+            android:layout_marginLeft="160sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite" />
+
+        <TextView
+            android:id="@+id/info_text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="For Sale: PHP 500.00"
+            android:textSize="14dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="160sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite"/>
+
+        <TextView
+            android:id="@+id/info_text3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Contact Mamu - 0933960453"
+            android:textSize="12dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="160sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite"/>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        card_view:cardBackgroundColor="@color/colorB"
+        card_view:cardCornerRadius="4dp" >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/sad"
+            android:layout_marginRight="150dp"/>
+
+        <TextView
+            android:id="@+id/info_text7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Introduction to Systems Analysis and Design"
+            android:textSize="16dp"
+            android:layout_marginTop="16sp"
+            android:layout_marginLeft="160sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite" />
+
+        <TextView
+            android:id="@+id/info_text5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="For Lease: PHP 250.00"
+            android:textSize="14dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="160sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite"/>
+
+        <TextView
+            android:id="@+id/info_text6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Contact Mamu - 0933960453"
+            android:textSize="12dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="160sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view3"
+        android:layout_gravity="left|bottom"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        card_view:cardBackgroundColor="@color/colorR"
+        card_view:cardCornerRadius="4dp" >
+
+        <TextView
+            android:id="@+id/info_text8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Looking for: Female OJT Uniform"
+            android:textSize="24dp"
+            android:layout_marginTop="60sp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite" />
+
+        <TextView
+            android:id="@+id/info_text9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="by Nikka- 09223456712 | 23459991"
+            android:textSize="14dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:textColor="@color/textWhite"/>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</FrameLayout>
